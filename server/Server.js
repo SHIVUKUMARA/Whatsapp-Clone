@@ -8,7 +8,7 @@ import { Server as IOServer } from "socket.io";
 import cors from "cors";
 import morgan from "morgan";
 
-import connectDB from "./config/db.js";
+import connectDB from "./Config/db.js";
 import messageRoutes from "./Routes/MessageRoutes.js";
 import Message from "./Models/Message.js"; // ensure path is correct
 
